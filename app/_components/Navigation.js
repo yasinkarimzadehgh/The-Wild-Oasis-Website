@@ -14,7 +14,7 @@ export default function Navigation() {
           <Link href="/about">About</Link>
         </li>
         <li>
-          <Link href="/account">Guest area</Link>
+          <Link href="/account">Your account</Link>
         </li>
       </ul>
     </nav>
