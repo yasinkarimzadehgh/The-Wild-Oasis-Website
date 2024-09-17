@@ -31,7 +31,6 @@ export async function getCabinPrice(id) {
   if (error) {
     console.error(error);
   }
-
   return data;
 }
 
