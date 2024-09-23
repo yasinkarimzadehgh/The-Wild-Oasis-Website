@@ -5,6 +5,7 @@ import Image from "next/image";
 // export const metadata = {
 //   title: "Cabin",
 // };
+export const revalidate = 0;
 
 export async function generateMetadata({ params }) {
   const { name } = await getCabin(params.cabinId);
