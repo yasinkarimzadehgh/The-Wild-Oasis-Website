@@ -32,9 +32,21 @@
 
 /* For data picker */
 
+.rdp-day_selected,
+.rdp-day_selected:hover {
+  background-color: #808080 !important; /* Gray color for selected day */
+  color: #fff !important; /* White text for selected day */
+}
+
+.rdp-day_disabled {
+  background-color: #ccc !important; /* Light gray for disabled days */
+  color: #888 !important; /* Darker gray text for disabled days */
+  opacity: 0.6 !important;
+}
+
 .rdp {
   --rdp-cell-size: 32px !important;
-  --rdp-accent-color: theme("colors.accent.500") !important;
-  --rdp-background-color: theme("colors.accent.600") !important;
+  --rdp-accent-color: #808080 !important; /* Override accent color */
+  --rdp-background-color: #ccc !important; /* Override background color */
   margin: 0 !important;
 }
